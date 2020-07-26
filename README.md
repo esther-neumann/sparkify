@@ -1,2 +1,37 @@
-# sparkify
-Spark project to predict customer churn, part of Udacitys Nanodegree
+# Sparkify predict churn
+
+## Table of Contents
+1. [Description](https://github.com/esther-neumann/disaster_response_pipeline#description)
+2. [Getting Started](https://github.com/esther-neumann/disaster_response_pipeline#getting-started)
+    1. [Dependencies](https://github.com/esther-neumann/disaster_response_pipeline#dependencies)
+    2. [Installing](https://github.com/esther-neumann/disaster_response_pipeline#installing)
+    3. [Executing Program](https://github.com/esther-neumann/disaster_response_pipeline#executing-program)
+    4. [Additional Material](https://github.com/esther-neumann/disaster_response_pipeline#additional-material)
+3. [Acknowledgement](https://github.com/esther-neumann/disaster_response_pipeline#acknowledgements)
+ 
+    
+## Description
+In this project we will predict which users will unsubscribe from a fictional Music Streaming App called Sparkify, based on their activity logs. 
+The project is implemented with PySpark. PySpark is the Python API for Apache Spark, a framework made to process and work with huge datasets. The modelling will be done with different machine learning models e.g. linear regression.
+
+## Getting Started
+
+### Dependencies
+
+ - pyspark
+ - pandas
+
+### Installing:
+Clone this GIT repository:
+
+    git clone https://github.com/esther-neumann/sparkify.git
+
+### File Description
+The dataset utilized for this study is a big data obtained and provided by Udacity, and thus not publicly available. The dataset is a .json file with record of events of all users on the sparkify streaming platform. For this notebook only the small version of the Dataset was used. 
+
+-- The 'Sparkify.ipynb' file is the notebook used in cleaning, preprocessing, and modelling
+
+## Aditional Material 
+To read more of my analyis and the result please read my blogpost [here](https://medium.com/@frauestherneumann/sparkify-how-to-predict-churn-fed9da9651b1)
+## Acknowledgements
+- Udacity for providing such a complete Data Science Nanodegree Program
